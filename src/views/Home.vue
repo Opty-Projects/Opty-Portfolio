@@ -47,7 +47,7 @@ export default class Home extends Vue {
   readonly themeService = ThemeService.singleton;
   readonly description: string[] = [
     `Hi! My name is Ricardo Grade. I'm ${HomeService.currAge}. I'm a Bologna MSc Student in Computer Science & Engineering @ Instituto Superior Técnico. In which I've specialized in Distributed Systems & Cyber-Security.`,
-    "I've a Scholarship within the Scope of the IST Project - Taguspark R&D Activities. In which I Develop & Maintain Functionalities of Applications to Support the Management of IST - Taguspark.",
+    "I'm currently working on my Thesis on an app designed to support location proofing for smart tourism. The goal is to provide a game for Lisbon sightseeing. After deployment, I will also develop new location proof techniques using a peer-to-peer approach, using Bluetooth, to allow tourists to assert each other's positions. In the end, it will be deployed to the Google Play Store.",
     "I'm ambitious. I'm guided by goals. I'm always improving myself. Thanks to my creativity I can always find a simpler way to solve the problems to which I'm challenged.",
     "I love to program. I love to be challenged. I like to solve difficult problems, think of solutions that no one thought of or discover better's.",
   ];

@@ -2,9 +2,10 @@
   <v-data-table
     class="appBackground"
     :dark="themeService.dark"
-    :headers="headers"
-    :items="degreeService.branch.Courses"
     :search="search"
+    :headers="headers"
+    :items="courses"
+    group-by="Branch"
     hide-default-footer
     disable-pagination
     :mobile-breakpoint="1200"
@@ -12,23 +13,20 @@
     <template v-slot:top>
       <v-container fluid>
         <v-card-title v-bind:style="cardTitleStyle">
-          <degree-branches-menu :degree-service="degreeService" />
-          <v-spacer />
-          <div class="appText mx-2" v-text="degreeService.branch.Name" />
+          <div class="appText">Computer Science & Engineering</div>
           <v-spacer />
           <div class="mx-2">
             <span class="appText">Weighted Average</span>
             <v-chip
               class="appText mx-2 pa-6 rounded-0"
-              v-text="degreeService.branch.WeightedAVG.toFixed(1)"
-              v-bind:style="getGradeStyle(degreeService.branch.WeightedAVG)"
+              v-text="weightedAVG.toFixed(1)"
+              v-bind:style="getGradeStyle(weightedAVG)"
             />
           </div>
           <v-spacer />
           <v-switch v-model="cDetails" label="Courses Details" flat />
           <v-spacer />
           <v-text-field
-            class="mx-2"
             v-model="search"
             append-icon="$search"
             label="Search"
@@ -55,7 +53,7 @@
     </template>
 
     <template v-slot:[`item.Github`]="{ item }">
-      <v-tooltip bottom>
+      <v-tooltip v-if="item.Github" bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
             :href="item.Github"
@@ -93,10 +91,6 @@
     <template v-slot:[`item.Year`]="{ item }">
       <span class="appText" v-text="item.Year" />
     </template>
-
-    <template v-slot:[`item.Interest`]="{ item }">
-      <span class="appText" v-text="item.Interest" />
-    </template>
   </v-data-table>
 </template>
 
@@ -105,67 +99,60 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 import { PropType } from "vue";
 import { DataTableHeader } from "vuetify";
 import Style from "@/models/Style";
-import DegreeBranchesMenu from "@/components/DegreeTable/DegreeBranchesMenu.vue";
-import DegreeService from "@/services/Degree/DegreeService";
+import Course from "@/models/Course";
 import ThemeService from "@/services/ThemeService";
 import DeviceService from "@/services/DeviceService";
 
-@Component({
-  components: { DegreeBranchesMenu },
-})
+@Component
 export default class DegreeTable extends Vue {
-  @Prop({ type: Object as PropType<DegreeService>, required: true })
-  readonly degreeService!: DegreeService;
+  @Prop({ type: Object as PropType<Course[]>, required: true })
+  readonly courses!: Course[];
+  readonly weightedAVG = this.calcWeightedAverage();
   readonly themeService = ThemeService.singleton;
   readonly deviceService = DeviceService.singleton;
   cDetails = false;
   search = "";
-
-  get headers(): DataTableHeader[] {
-    let headers: DataTableHeader[] = [
-      {
-        text: "Course",
-        value: "Name",
-        align: "start",
-      },
-    ];
-    if (this.degreeService.branch.HasGithub) {
-      headers.push({
-        text: "Projects",
-        value: "Github",
-        align: "center",
-        sortable: false,
-        filterable: false,
-      });
-    }
-    headers.push({
+  readonly mainHeaders: DataTableHeader[] = [
+    {
+      text: "Course",
+      value: "Name",
+      align: "start",
+    },
+    {
+      text: "Projects",
+      value: "Github",
+      align: "center",
+      sortable: false,
+      filterable: false,
+    },
+    {
       text: "Grade [0 - 20]",
       value: "Grade",
       align: "center",
-    });
-    if (this.cDetails) {
-      headers.push({
-        text: "ECTS",
-        value: "ECTS",
-        align: "center",
-      });
-      headers.push({
-        text: "Period",
-        value: "Period",
-        align: "center",
-      });
-      headers.push({
-        text: "Year",
-        value: "Year",
-        align: "center",
-      });
-      headers.push({
-        text: "Interest [0 - 10]",
-        value: "Interest",
-        align: "center",
-      });
-    }
-    return headers;
+    },
+    {
+      text: "Period",
+      value: "Period",
+      align: "center",
+    },
+  ];
+  readonly detailHeaders: DataTableHeader[] = [
+    {
+      text: "Year",
+      value: "Year",
+      align: "center",
+    },
+    {
+      text: "ECTS",
+      value: "ECTS",
+      align: "center",
+    },
+  ];
+
+  get headers(): DataTableHeader[] {
+    return this.cDetails
+      ? [...this.mainHeaders, ...this.detailHeaders]
+      : this.mainHeaders;
   }
 
   getGradeStyle(grade: number): Style {
@@ -173,16 +160,26 @@ export default class DegreeTable extends Vue {
       fontSize: "large",
       fontWeight: "normal",
     };
-    if (grade >= 18) {
+    if (grade >= 17.5) {
       style.backgroundColor = "rgba(75, 175, 80, 0.6)";
-    } else if (grade >= 15) {
+    } else if (grade >= 13.5) {
       style.backgroundColor = "rgba(205, 220, 55, 0.6)";
-    } else if (grade >= 10) {
+    } else if (grade >= 9.5) {
       style.backgroundColor = "rgba(255, 195, 5, 0.6)";
     } else {
       style.backgroundColor = "rgba(255, 85, 35, 0.6)";
     }
     return style;
+  }
+
+  calcWeightedAverage(): number {
+    let acc = 0;
+    let ECTS = 0;
+    this.courses.forEach((course: Course) => {
+      acc += course.Grade * course.ECTS;
+      ECTS += course.ECTS;
+    });
+    return acc / ECTS;
   }
 
   get cardTitleStyle(): Style {

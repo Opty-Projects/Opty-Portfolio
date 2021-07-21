@@ -88,10 +88,12 @@ export default class App extends Vue {
   color: rgb(120, 130, 205) !important;
 }
 
+.theme--light.v-data-table .v-row-group__header,
 .theme--light.v-data-table tr:hover {
   background: rgba(0, 0, 0, 0.05) !important;
 }
 
+.theme--dark.v-data-table .v-row-group__header,
 .theme--dark.v-data-table tr:hover {
   background: rgba(255, 255, 255, 0.05) !important;
 }
@@ -105,6 +107,14 @@ export default class App extends Vue {
   letter-spacing: normal;
   text-transform: none;
   font-size: large !important;
+}
+
+.v-application .ma-0 {
+  margin-inline: 1% !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td.text-start {
+  font-size: medium !important;
 }
 
 @keyframes periodicallySpin {

@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "Mobile & Ubiquitous Computing",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/CMov46/2020-2021/2-semestre",
+    "Grade": 20,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/MUC",
+    "Branch": "Distributed Systems"
+  },
+  {
+    "Name": "Cloud Computing & Virtualization",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/AVExe76/2020-2021/2-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/CCV",
+    "Branch": "Distributed Systems"
+  },
+  {
+    "Name": "Parallel & Distributed Computing",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/CPD132646/2020-2021/2-semestre",
+    "Grade": 18,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/PDC",
+    "Branch": "Distributed Systems"
+  },
+  {
+    "Name": "Design & Implementation of Distributed Applications",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/PADI7/2020-2021/1-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/DIDA",
+    "Branch": "Distributed Systems"
+  },
+  {
+    "Name": "Highly Dependable Systems",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/SDTF46/2020-2021/2-semestre",
+    "Grade": 20,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/HDS",
+    "Branch": "Cyber-Security"
+  },
+  {
+    "Name": "Network & Computer Security",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/SIRS7/2020-2021/1-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/NCS",
+    "Branch": "Cyber-Security"
+  },
+  {
+    "Name": "Software Security",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/SSof7/2020-2021/1-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/SS",
+    "Branch": "Cyber-Security"
+  },
+  {
+    "Name": "Forensics Cyber-Security",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/CSF7/2020-2021/1-semestre",
+    "Grade": 18,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/FCS",
+    "Branch": "Cyber-Security"
+  },
+  {
+    "Name": "Independent Studies 2",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/PPes126/2020-2021/2-semestre",
+    "Grade": 20,
+    "ECTS": 1.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/IS2",
+    "Branch": "Common Branch"
+  },
+  {
+    "Name": "Independent Studies 1",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/PPes14/2020-2021/1-semestre",
+    "Grade": 20,
+    "ECTS": 1.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2020/2021",
+    "Github": "https://github.com/Opty-MSc/IS1",
+    "Branch": "Common Branch"
+  }
+]

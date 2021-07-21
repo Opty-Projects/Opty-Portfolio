@@ -1,0 +1,280 @@
+[
+  {
+    "Name": "Software Engineering",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/ESof96451113264/2019-2020/2-semestre",
+    "Grade": 20,
+    "ECTS": 7.5,
+    "Period": "Year 3, Sem. 2",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/Quizzes-Tutor",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Distributed Systems",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/SDis151113264/2019-2020/2-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 3, Sem. 2",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/DS",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Compilers",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/Com564511132624/2019-2020/2-semestre",
+    "Grade": 18,
+    "ECTS": 6,
+    "Period": "Year 3, Sem. 2",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/Comp",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Systems Analysis & Modeling",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/AMS1113264/2019-2020/2-semestre",
+    "Grade": 15,
+    "ECTS": 6,
+    "Period": "Year 3, Sem. 2",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/SAM",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Computer Networks",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/RC9179577/2019-2020/1-semestre",
+    "Grade": 20,
+    "ECTS": 6,
+    "Period": "Year 3, Sem. 1",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/CN",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Databases",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/BD8179577/2019-2020/1-semestre",
+    "Grade": 19,
+    "ECTS": 6,
+    "Period": "Year 3, Sem. 1",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/DB",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Artificial Intelligence",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/IArt9179577/2019-2020/1-semestre",
+    "Grade": 18,
+    "ECTS": 7.5,
+    "Period": "Year 3, Sem. 1",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/AI",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Computer Graphics",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/CGra8179577/2019-2020/1-semestre",
+    "Grade": 18,
+    "ECTS": 4.5,
+    "Period": "Year 3, Sem. 1",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/CG",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Computer Organization",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/OC12179577/2019-2020/1-semestre",
+    "Grade": 18,
+    "ECTS": 6,
+    "Period": "Year 3, Sem. 1",
+    "Year": "2019/2020",
+    "Github": "https://github.com/Opty-BSc/CO",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Algorithms Analysis & Synthesis",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/ASA10111326/2018-2019/2-semestre",
+    "Grade": 16,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 2",
+    "Year": "2018/2019",
+    "Github": "https://github.com/Opty-BSc/AAS",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Human Machine Interfaces",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/IPM17111326/2018-2019/2-semestre",
+    "Grade": 15,
+    "ECTS": 7.5,
+    "Period": "Year 2, Sem. 2",
+    "Year": "2018/2019",
+    "Github": "https://github.com/Opty-BSc/HMI",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Operating Systems",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/SO717957/2018-2019/1-semestre",
+    "Grade": 19,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 1",
+    "Year": "2018/2019",
+    "Github": "https://github.com/Opty-BSc/OS",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Object Oriented Programming",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/PO1717957/2018-2019/1-semestre",
+    "Grade": 19,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 1",
+    "Year": "2018/2019",
+    "Github": "https://github.com/Opty-BSc/OOP",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Programming Logic",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/LP5111326/2017-2018/2-semestre",
+    "Grade": 20,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2017/2018",
+    "Github": "https://github.com/Opty-BSc/PL",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Algorithms & Data Structures Introduction",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/IAED10111326/2017-2018/2-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2017/2018",
+    "Github": "https://github.com/Opty-BSc/ADSI",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Programming Fundamentals",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/FP1795/2017-2018/1-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2017/2018",
+    "Github": "https://github.com/Opty-BSc/PF",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Computer Architecture Introduction",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/IAC31795/2017-2018/1-semestre",
+    "Grade": 18,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2017/2018",
+    "Github": "https://github.com/Opty-BSc/CAI",
+    "Branch": "Computer Engineering Sciences"
+  },
+  {
+    "Name": "Computer Theory",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/TCom111326/2018-2019/2-semestre",
+    "Grade": 19,
+    "ECTS": 4.5,
+    "Period": "Year 2, Sem. 2",
+    "Year": "2018/2019",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Probability & Statistics",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/PEst20111326/2018-2019/2-semestre",
+    "Grade": 18,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 2",
+    "Year": "2018/2019",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Electromagnetism & Optics",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/EO9111326/2018-2019/2-semestre",
+    "Grade": 18,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 2",
+    "Year": "2018/2019",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Mechanics & Waves",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/MO317957/2018-2019/1-semestre",
+    "Grade": 17,
+    "ECTS": 6,
+    "Period": "Year 2, Sem. 1",
+    "Year": "2018/2019",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Complex Analysis & Differential Equations",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/ACED2117957/2018-2019/1-semestre",
+    "Grade": 15,
+    "ECTS": 7.5,
+    "Period": "Year 2, Sem. 1",
+    "Year": "2018/2019",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Discrete Mathematics",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/MD5111326/2017-2018/2-semestre",
+    "Grade": 19,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2017/2018",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Differential & Integral Calculus II",
+    "Href": "https://cdi2tp.math.tecnico.ulisboa.pt/?semestre=2017_2",
+    "Grade": 14,
+    "ECTS": 7.5,
+    "Period": "Year 1, Sem. 2",
+    "Year": "2017/2018",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Linear Algebra",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/AL291795-2/2017-2018/1-semestre",
+    "Grade": 19,
+    "ECTS": 6,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2017/2018",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Differential & Integral Calculus I",
+    "Href": "https://cdi1tp.math.tecnico.ulisboa.pt/?semestre=2017_1",
+    "Grade": 16,
+    "ECTS": 6,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2017/2018",
+    "Branch": "Engineering Sciences"
+  },
+  {
+    "Name": "Computing & Society",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/CS1113264/2019-2020/2-semestre",
+    "Grade": 17,
+    "ECTS": 3,
+    "Period": "Year 3, Sem. 2",
+    "Year": "2019/2020",
+    "Branch": "Cross-Cutting Skills"
+  },
+  {
+    "Name": "Management",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/Ges1117957/2018-2019/1-semestre",
+    "Grade": 16,
+    "ECTS": 4.5,
+    "Period": "Year 2, Sem. 1",
+    "Year": "2018/2019",
+    "Branch": "Cross-Cutting Skills"
+  },
+  {
+    "Name": "Computer Engineering Introduction",
+    "Href": "https://fenix.tecnico.ulisboa.pt/disciplinas/IEI71795/2017-2018/1-semestre",
+    "Grade": 16,
+    "ECTS": 3,
+    "Period": "Year 1, Sem. 1",
+    "Year": "2017/2018",
+    "Branch": "Cross-Cutting Skills"
+  }
+]
